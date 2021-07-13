@@ -6,3 +6,4 @@ ffmpeg/_ffmpeg.py
 ffmpeg/_filters.py
 ffmpeg/_run.py
 ffmpeg/nodes.py
+include Package/executableFile
