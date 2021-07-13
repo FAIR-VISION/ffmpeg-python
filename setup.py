@@ -57,8 +57,7 @@ keywords = misc_keywords + file_formats
 
 setup(
     name='ffmpeg-python',
-    packages=['ffmpeg'], 
-    packages=['third_part'],
+    packages=['ffmpeg', 'ffmpeg.*'], 
     setup_requires=['pytest-runner'],
     version=version,
     description='Python bindings for FFmpeg fv soft',
@@ -91,6 +90,5 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.8',
     ],
 )
