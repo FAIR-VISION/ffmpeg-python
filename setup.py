@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 from textwrap import dedent
 
 version = '0.0.1'
@@ -57,7 +57,9 @@ keywords = misc_keywords + file_formats
 
 setup(
     name='ffmpeg-python',
-    packages=['ffmpeg', 'ffmpeg.third_part'],
+    #packages=['ffmpeg', 'ffmpeg.third_part'],
+    packages=find_packages()
+    namespace_packages=['ffmpeg']
     setup_requires=['pytest-runner'],
     version=version,
     description='Python bindings for FFmpeg fv soft',
