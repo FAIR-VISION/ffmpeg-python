@@ -57,7 +57,7 @@ keywords = misc_keywords + file_formats
 
 setup(
     name='ffmpeg-python',
-    packages=['ffmpeg']['third_part'],
+    packages=['ffmpeg'], ['third_part'],
     setup_requires=['pytest-runner'],
     version=version,
     description='Python bindings for FFmpeg fv soft',
