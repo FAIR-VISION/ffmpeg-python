@@ -1,4 +1,4 @@
-from setuptools import setup, include_package_data
+from setuptools import setup, find_packages
 from textwrap import dedent
 
 version = '0.0.1'
